@@ -76,7 +76,7 @@ export class AppComponent {
 
   example(i, limit) {
     let arr = this.data[i];
-    this.http.post('https://fast-wildwood-79987.herokuapp.com/students_ID', {
+    this.http.post('INSERT_API_ENDPOINT_HERE', {
       name: arr[0],
       gender: arr[2],
       course: arr[5],
